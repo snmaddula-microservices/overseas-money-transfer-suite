@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: LIMITSERVICE
+
+eureka:
+  client:
+    enabled: false
