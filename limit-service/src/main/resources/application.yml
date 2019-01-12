@@ -10,9 +10,9 @@ eureka:
 swagger: 
   title: OTT Limits Service API
   version: 1.0
-  description: Transaction Limits Service
+  description: Remittance Limits Service
   base-package: 
   contact: 
     name: snmaddula
     url: 
-    email: sn_maddula@outlook.com
+    email: snmaddula@gmail.com
