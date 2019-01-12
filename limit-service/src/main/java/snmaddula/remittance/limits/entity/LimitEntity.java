@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @Entity
-@Table(name = "LIMIT_DETAILS")
+@Table(name = "LIMIT")
 @NamedQueries({
 		@NamedQuery(
 				name = "LimitEntity.resetDailyLimits", 
