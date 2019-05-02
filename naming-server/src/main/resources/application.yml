@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: naming-server
+    admin:
+      enabled: true
+  boot:
+    admin:
+      context-path: /admin
+      
+server:
+  port: 8761
+  use-forward-headers: true
+  
+management:
+  endpoint:
+    health:
+      show-details: always
+      
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    
+  instance:
+    prefer-ip-address: true
+  server:
+    peer-node-connect-timeout-ms: 10000
